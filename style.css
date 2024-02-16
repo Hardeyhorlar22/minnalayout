@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 25px;
+}
+.logo{
+    width: 10%;
+    height: 40px;
+     /* background-color: pink;  */
+}
+.logo h1{
+    font-family: sans-serif;
+    font-size: 23px;
+    font-weight: 900;
+    padding: 5px;
+    text-align: center;
+}
+.link{
+    width: 50%;
+    height: 40px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+a{
+    color: black;
+}
+.link select{
+    border: none;
+    background-color: transparent;
+    color: black;
+    font-size: 20px;
+    width: 80px;
+}
+.link a{
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.link div{
+    margin-top: 10px;
+    font-size: 20px;
+    color: black
+}
+/* NAV SECTION */
+.discount p{
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(76, 31, 89);
+    color: white;
+    padding-top: 15px;
+    font-weight: 300;
+}
+.hero{
+    width: 100%;
+    height: 580px;
+    background-image: url("mainframe.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.hero h1{
+    font-size: 90px;
+    color: whitesmoke;
+}
+.hero p{
+    font-size: larger;
+    color: whitesmoke;
+}
+.hero button{
+    font-size: 18px;
+    color: rgb(93, 87, 94);
+    width: 150px;
+    height: 55px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;   
+}
+.product{
+    width: 100%;
+    height: 700px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.product h1{
+    font-size: 50px;
+    height: 100px;
+    /* background-color: pink; */
+}
+.product .product-cart{
+    width: 97%;
+    height: 500px;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+}
+.product .product-cart div{
+    width: 23.5%;
+    height: 500px;
+    background-color: aqua;
+}
+.product-cart .cart1 .candy{
+    width: 100%;
+    height: 300px;
+    background-image: url(candyflowerpot.jpg);
+    background-size: cover;
+    background-position: center;
+}
